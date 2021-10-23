@@ -1,0 +1,53 @@
+<DOCTYE html>
+<html lang="en">
+<head>
+   <h1>Wellcome To Nara Pizza</h1>
+
+   <form action="/mailing.php" method="POST">
+    <Fieldset>
+    <Legend>Nara Pizza</Legend>
+    <p>Hallo Pizzer, Dapatkan pemesanan dari rumah. Beberapa menu spesial akan kami siapkan untuk anda. Stay home with PIZZA' HOO</p>
+    <ol>
+        <li><label for="Nama"> Nama    : </label>
+            <input type="text" name="Nama" id="number"></li>
+        <li><label for="Alamat"> Alamat  : </label>
+            <input type="text" name="Alamat" id="Alamat"></li>
+        <li><label for="Telepon"> Telepon : </label>
+            <input type="text" name="Telepon" id="Telepon"></li>
+    </ol>
+    </Fieldset>
+</form>
+</body> 
+    <title>Nara Pizza</title>
+</head>
+<body>
+    <form action="/mailing.php" method="POST"></form>
+    <fieldset>
+    <legend>Menu : </legend>
+    <form action="/action_page.php">
+    <input type="checkbox" id="vehicle" name="vehicle" value="Cheese">
+    <label for="vehicle">Cheseenara</label><br>
+    <input type="checkbox" id="vehicle" name="vehicle" value="Chicken">
+    <label for="vehicle">Chickennara</label><br>
+    <input type="checkbox" id="vehicle" name="vehicle" value="Sausage">
+    <label for="vehicle">Nara sausage</label><br>
+    <input type="checkbox" id="vehicle" name="vehicle" value="Peproni">
+    <label for="vehicle">Nara Peproni </label><br>
+    <input type="checkbox" id="vehicle" name="vehicle" value="Margherita">
+    <label for="vehicle">Margherita</label><br>
+    <input type="checkbox" id="vehicle" name="vehicle" value="Meat Lovers">
+    <label for="vehicle">Meat Lovers</label><br>
+    <input type="checkbox" id="vehicle" name="vehicle" value="Vegetarian">
+    <label for="vehicle">Vegetarian</label><br>
+</form>
+   <p>Size Nara Pizza: <input type="text" list="edulevel" name="SIZE PIZZA' HOO" name="fullname">
+        <datalist id="edulevel">
+            <option value="Max"></option>
+            <option value="Medium"></option>
+            <option value="Mini"></option>
+        </datalist>
+    </fieldset>
+    <input type="submit" value="Bring me a Pizza!">
+    <input type="reset" value="Reset"> 
+</body>
+</html>
